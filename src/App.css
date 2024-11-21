@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Guess-input {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  width: 150px;
+}
+
+.Guess-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+}
+
+.Guess-button:hover {
+  background-color: #21a1f1;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.New-game-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.New-game-button:hover {
+  background-color: #45a049;
+}
